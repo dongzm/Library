@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>福音影视列表</title>
+    <!-- Bootstrap core CSS -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">福音影视</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">芥菜种图书馆</a>
+                    </li>
+                    <li class="active"><a href="video.html">福音影视</a>
+                    </li>
+                    <li><a href="javascript:void(0);">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+    <div class="container">
+        <div class="media" onclick="seeVideo('http://mp.weixin.qq.com/s?__biz=MjM5MDI3NDAzNg==&mid=210027457&idx=3&sn=ea64ed5c2472ba618cbaae1ccd6b23ce&scene=1&key=dffc561732c2265183749a9652e48ff758587f2e859fa892cae7b4f551e5eb42a990fac5332dae102f0f821eeb296059&ascene=1&uin=MTk1NzYwOTE1&devicetype=Windows+8&version=61010029&pass_ticket=UjMO9kaTastwjoRIH4IESsx6QwH38QX1PEmwqA7BvuA%3D')">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" alt="未加载" style="width: 64px; height: 64px;" src="img/video.jpg">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">宝贵视频五集|《福音》</h4> 内容简介
+            </div>
+        </div>
+        <div class="media" onclick="seeVideo('http://mp.weixin.qq.com/s?__biz=MjM5MDI3NDAzNg==&mid=210068476&idx=2&sn=758f59d9a96d71c67c3f3c783de58052&scene=1&key=dffc561732c226518c9528777041914390a120be6c3b3c7b84a8238e6211e6974cb9dc081e7d141b8268aea963453ece&ascene=1&uin=MTk1NzYwOTE1&devicetype=Windows+8&version=61010029&pass_ticket=UjMO9kaTastwjoRIH4IESsx6QwH38QX1PEmwqA7BvuA%3D')">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" alt="未加载" style="width: 64px; height: 64px;" src="img/video.jpg">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">宝贵视频11集|《一代人的见证》</h4> 内容简介
+            </div>
+        </div>
+        <div class="media" onclick="seeVideo('http://mp.weixin.qq.com/s?__biz=MjM5MDI3NDAzNg==&mid=210670974&idx=1&sn=968c19f71dc8daa604bc5c38b5438625&scene=1&key=dffc561732c226517080c5b00fb11fcbddbe17b7857f97e0fb99718cf1657e959fe6951b70868bee22de7d1325416141&ascene=1&uin=MTk1NzYwOTE1&devicetype=Windows+8&version=61010029&pass_ticket=UjMO9kaTastwjoRIH4IESsx6QwH38QX1PEmwqA7BvuA%3D')">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" alt="未加载" style="width: 64px; height: 64px;" src="img/video.jpg">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">宝贵视频12集 | 《信仰与科学》</h4> 内容简介
+            </div>
+        </div>
+        <div class="media" onclick="seeVideo('http://mp.weixin.qq.com/s?__biz=MjM5MDI3NDAzNg==&mid=210066438&idx=3&sn=8ec77fd537e6f71f0074a96b0c6820ca&scene=1&key=dffc561732c2265138af4be489b0ce5ac32d5243df3ca755dccba5e24388737a7a0497edcae084d54039a2a2218ff2c7&ascene=1&uin=MTk1NzYwOTE1&devicetype=Windows+8&version=61010029&pass_ticket=UjMO9kaTastwjoRIH4IESsx6QwH38QX1PEmwqA7BvuA%3D')">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" alt="未加载" style="width: 64px; height: 64px;" src="img/video.jpg">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">宝贵视频15集|《科学信仰人生》</h4> 内容简介
+            </div>
+        </div>
+        <div class="media" onclick="seeVideo('http://mp.weixin.qq.com/s?__biz=MjM5MDI3NDAzNg==&mid=209466819&idx=2&sn=ee50f812a8d6bc905f2c70596ea87ed7&scene=1&key=dffc561732c226518e6d774a103c5aec9f72382b108c5e7f133e83cd45105b1aa85a7b671b059b7e927d8a25c2a74f40&ascene=1&uin=MTk1NzYwOTE1&devicetype=Windows+8&version=61010029&pass_ticket=UjMO9kaTastwjoRIH4IESsx6QwH38QX1PEmwqA7BvuA%3D')">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" alt="未加载" style="width: 64px; height: 64px;" src="img/video.jpg">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">宝贵视频九集|《彼岸》</h4> 内容简介
+            </div>
+        </div>
+    </div>
+    <!--/row-->
+    <div ng-include="'foot.html'"></div>
+    </div>
+    <!--/.container-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.4.1/angular.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    function seeVideo(url){
+        window.location.href = url;
+    }
+    </script>
+</body>
+
+</html>
